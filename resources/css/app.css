@@ -1,3 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "bootstrap";
+
+header {
+  height: 80px;
+  display: flex;
+  background-image: url(/public/images/header-image.jpg);
+}
+
+.top-bar {
+  display: flex;
+  padding: 20px;
+}
+
+.top-title {
+  color: white;
+}
+
+.container-fluid {
+  background-color: rgb(231, 242, 246);
+  text-align: center;
+  padding: 20px;
+}
+
+.table-responsive {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+}
+
